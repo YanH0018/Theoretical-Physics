@@ -1,0 +1,79 @@
+# License for this Repository
+
+Copyright (c) 2025 A. [Redacted]
+
+This repository contains different artifact types (software, manuscript text, figures, and derived data). To keep things
+clear and PRL‑compatible, we apply **scope‑specific licenses**:
+
+- **Software (code, scripts, notebooks)** — MIT License (permissive; SPDX: MIT).
+- **Manuscript text & figures** — Creative Commons **CC BY‑NC‑ND 4.0** (non‑commercial, no derivatives; SPDX: CC-BY-NC-ND-4.0).
+  This keeps control of the paper’s wording/figures while allowing non‑commercial sharing.
+- **Derived numeric datasets you authored** (e.g., CSVs created by you from your own simulations or measurements) — **CC BY 4.0** (SPDX: CC-BY-4.0).
+  *Note:* If a dataset is digitized from third‑party figures, include a provenance note; numeric values are facts,
+  but respect any reuse limits stated by the original publisher.
+
+Third‑party materials (figures, images, code snippets) remain under their original licenses and are **not** covered here.
+If you believe any file is mis‑licensed, please open an issue or contact the author (email in the manuscript).
+
+---
+
+## 1) SOFTWARE — MIT License
+
+SPDX-License-Identifier: MIT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 2) MANUSCRIPT TEXT & FIGURES — CC BY‑NC‑ND 4.0
+
+SPDX-License-Identifier: CC-BY-NC-ND-4.0
+
+You are free to **share** (copy and redistribute the material in any medium or format) under the following terms:
+
+- **Attribution (BY)** — You must give appropriate credit.
+- **NonCommercial (NC)** — You may not use the material for commercial purposes.
+- **NoDerivatives (ND)** — If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+No additional restrictions may be applied. For the full legal code, see:
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+This section is intended to avoid conflicts with future journal publication while allowing academic sharing.
+
+---
+
+## 3) DATA (ORIGINAL) — CC BY 4.0
+
+SPDX-License-Identifier: CC-BY-4.0
+
+You are free to **share** and **adapt** the data for any purpose, even commercially, under the terms of attribution.
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+**Provenance note:** If a CSV was produced by digitizing a published figure owned by others, include a citation and
+a note in the README or file header. Only the **derived numeric values** you created are being shared here; the
+original figure images are not redistributed.
+
+---
+
+## 4) File‑type mapping (suggested)
+
+- `/code`, `/scripts`, `/notebooks` → Section 1 (MIT)
+- `/paper`, `/figures` (LaTeX, PDFs, EPS/PNG you authored) → Section 2 (CC BY‑NC‑ND 4.0)
+- `/data` (CSV you authored) → Section 3 (CC BY 4.0)
+- Third‑party content → keep original license in a subfolder README or file header
